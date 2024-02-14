@@ -1,0 +1,12 @@
+[font]
+size = 11.0
+
+[font.normal]
+family = "FiraCode Nerd Font Mono"
+
+[shell]
+program = 'C:\Program Files\PowerShell\7\pwsh.exe'
+
+[window]
+decorations = "none"
+startup_mode = "Maximized"
