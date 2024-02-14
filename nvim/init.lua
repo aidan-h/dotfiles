@@ -2,8 +2,10 @@ vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 0.1
 vim.opt.termguicolors = true
 vim.cmd [[set shell=pwsh]]
+vim.cmd [[set linebreak]]
 
 require('packer').startup(function(use)
+	use 'davidgranstrom/nvim-markdown-preview'
 	use 'wbthomason/packer.nvim'
 
 	use 'hrsh7th/cmp-nvim-lsp'
@@ -90,7 +92,8 @@ local servers = {
 	"pyright",
 	"tailwindcss",
 	"luau_lsp",
-	"tsserver"
+	"tsserver",
+	"marksman"
 }
 
 for _, server in ipairs(servers) do
