@@ -41,7 +41,10 @@
     ],
     "profiles": 
     {
-        "defaults": {},
+        "defaults": 
+        {
+            "startingDirectory": "C:\\Users\\ahamm\\Documents"
+        },
         "list": 
         [
             {
